@@ -1,0 +1,10 @@
+.nav {
+  &__link {
+    padding: 10px 32px;
+    color: var(--black);
+    font-size: var(--desktop-rehular3);
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+}

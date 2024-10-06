@@ -1,0 +1,36 @@
+.Button {
+  padding: 12px 20px;
+  letter-spacing: 0.5px;
+  border-radius: 10px;
+  line-height: 24px;
+  font-weight: 500;
+  &_orange {
+    background: var(--orange);
+    color: var(--white);
+  }
+  &_black {
+    background: var(--black);
+    color: var(--white);
+  }
+  &_dark-orange {
+    background: var(--dark-orange);
+    color: var(--white);
+  }
+  &_gray {
+    background: var(--gray-02);
+    color: var(--gray-01);
+  }
+}
+
+.Toggle {
+  &_size {
+    padding: 10px 63.5px;
+
+    @media (max-width: 768px) {
+      padding: 6px 33.3px;
+    }
+    @media (max-width: 480px) {
+      padding: 5.17px 34.3px;
+    }
+  }
+}
